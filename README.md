@@ -34,7 +34,7 @@ brew services start postgresql
 
 ## Add Python Local
 ```
-pyenv local 3.6.15
+pyenv local 3.9.16
 ```
 
 ## Initialitation Git
@@ -53,7 +53,7 @@ odoo
 
 ## Download odoo 
 ```
-git clone https://www.github.com/odoo/odoo --depth 1 --branch 13.0 odoo
+git clone https://www.github.com/odoo/odoo --depth 1 --branch 14.0 odoo
 ```
 
 ## Remove git from Odoo folder
@@ -84,9 +84,6 @@ source venv/bin/activate
 
 ## Install Package
 ```
-CFLAGS="-Wno-error=implicit-function-declaration" pip install reportlab==3.5.55
-pip install wheel Cython==3.0.0a10
-pip install gevent==20.9.0 --no-build-isolation
 pip install -r ./odoo/requirements.txt
 ```
 
