@@ -1,0 +1,6 @@
+{
+  // "python.analysis.extraPaths": ["./odoo"]
+  "python.analysis.extraPaths": [
+    "/Users/abuabdirohman/Documents/Offline/odoo-14/odoo"
+  ]
+}
